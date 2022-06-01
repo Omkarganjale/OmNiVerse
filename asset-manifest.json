@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/omniverse/static/css/main.088a02c1.css",
-    "main.js": "/omniverse/static/js/main.5c638358.js",
+    "main.css": "/omniverse/static/css/main.1a5bec26.css",
+    "main.js": "/omniverse/static/js/main.e1fa58cb.js",
     "static/media/market.png": "/omniverse/static/media/market.93c2f5ca5e2b23421b54.png",
     "index.html": "/omniverse/index.html",
-    "main.088a02c1.css.map": "/omniverse/static/css/main.088a02c1.css.map",
-    "main.5c638358.js.map": "/omniverse/static/js/main.5c638358.js.map"
+    "main.1a5bec26.css.map": "/omniverse/static/css/main.1a5bec26.css.map",
+    "main.e1fa58cb.js.map": "/omniverse/static/js/main.e1fa58cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.088a02c1.css",
-    "static/js/main.5c638358.js"
+    "static/css/main.1a5bec26.css",
+    "static/js/main.e1fa58cb.js"
   ]
 }
