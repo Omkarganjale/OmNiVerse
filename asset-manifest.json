@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/omniverse/static/css/main.088a02c1.css",
+    "main.js": "/omniverse/static/js/main.f2062462.js",
+    "static/media/market.png": "/omniverse/static/media/market.93c2f5ca5e2b23421b54.png",
+    "index.html": "/omniverse/index.html",
+    "main.088a02c1.css.map": "/omniverse/static/css/main.088a02c1.css.map",
+    "main.f2062462.js.map": "/omniverse/static/js/main.f2062462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088a02c1.css",
+    "static/js/main.f2062462.js"
+  ]
+}
