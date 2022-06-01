@@ -14,7 +14,7 @@ const Navigation = ({ web3Handler, account }) => {
 						className=''
 						alt=''
 					/>
-					&nbsp; OmNiVerse
+					&nbsp; Omniverse
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
