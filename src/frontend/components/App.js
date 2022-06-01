@@ -74,7 +74,7 @@ function App() {
 								animation='border'
 								style={{ display: 'flex' }}
 							/>
-							<p className='mx-3 my-0'>
+							<p className='mx-3 my-0' style={{ color: 'white' }}>
 								Awaiting Metamask Connection...
 							</p>
 						</div>

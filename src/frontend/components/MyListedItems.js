@@ -66,7 +66,7 @@ export default function MyListedItems({ marketplace, nft, account }) {
 	}, [])
 	if (loading)
 		return (
-			<main style={{ padding: '1rem 0' }}>
+			<main style={{ color: 'white', padding: '1rem 0' }}>
 				<h2>Loading...</h2>
 			</main>
 		)
@@ -74,11 +74,11 @@ export default function MyListedItems({ marketplace, nft, account }) {
 		<div className='flex justify-center'>
 			{listedItems.length > 0 ? (
 				<div className='px-5 py-3 container'>
-					<h2>Listed</h2>
+					<h2 style={{ color: 'white' }}>Listed</h2>
 					<Row xs={1} md={2} lg={4} className='g-4 py-3'>
 						{listedItems.map((item, idx) => (
 							<Col key={idx} className='overflow-hidden'>
-								<Card>
+								<Card bg='dark' text='white'>
 									<Card.Img variant='top' src={item.image} />
 									<Card.Footer>
 										{ethers.utils.formatEther(
