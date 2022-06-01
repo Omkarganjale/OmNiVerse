@@ -60,7 +60,7 @@ function App() {
 				<>
 					<Navigation web3Handler={web3Handler} account={account} />
 				</>
-				<div>
+				<div className='bdy'>
 					{loading ? (
 						<div
 							style={{
