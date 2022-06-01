@@ -5,8 +5,10 @@ import { Row, Col, Card, Button } from 'react-bootstrap'
 const Home = ({ marketplace, nft }) => {
 	const [loading, setLoading] = useState(true)
 	const [items, setItems] = useState([])
+
 	const loadMarketplaceItems = async () => {
 		// Load all unsold items
+		setLoading(true)
 		const itemCount = await marketplace.itemCount()
 		let items = []
 		for (let i = 1; i <= itemCount; i++) {
@@ -46,12 +48,14 @@ const Home = ({ marketplace, nft }) => {
 	useEffect(() => {
 		loadMarketplaceItems()
 	}, [])
-	if (loading)
+
+	if (loading && items.length == 0)
 		return (
 			<main style={{ padding: '1rem 0' }}>
 				<h2 style={{ color: 'white' }}>Loading...</h2>
 			</main>
 		)
+
 	return (
 		<div className='flex justify-center'>
 			{items.length > 0 ? (

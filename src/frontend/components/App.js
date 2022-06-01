@@ -81,12 +81,6 @@ function App() {
 					) : (
 						<Routes>
 							<Route
-								path='/'
-								element={
-									<Home marketplace={marketplace} nft={nft} />
-								}
-							/>
-							<Route
 								path='/create'
 								element={
 									<Create
@@ -113,6 +107,13 @@ function App() {
 										nft={nft}
 										account={account}
 									/>
+								}
+							/>
+
+							<Route
+								path='/'
+								element={
+									<Home marketplace={marketplace} nft={nft} />
 								}
 							/>
 						</Routes>
